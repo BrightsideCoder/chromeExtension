@@ -1,7 +1,11 @@
 const inputBtn = document.querySelector("#input-btn");
 const inputEl = document.querySelector("#input-el");
+const ulEl = document.querySelector("#ul-el");
 let myLeads = [];
 
 inputBtn.addEventListener("click", function() {
-    inputEl.textContent
+    myLeads.push(inputEl.value);
+    console.log(myLeads);
+    inputEl.value = "";
 });
+
