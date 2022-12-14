@@ -6,13 +6,18 @@ body {
 }
 
 #input-el {
-    border-color: #5f9341;
-    padding: 0 10px;
-    box-sizing: border-box;
+    border: 2px solid #5f9341;
+    padding: 15px 10px;
     width: 100%;
+    margin-bottom: 3px;
+    box-sizing: border-box;
 }
 
 #input-btn {
     background-color: #5f9341;
     color: white;
+    padding: 15px;
+    width: 150px;
+    font-weight: bold;
+    border: none;
 }
