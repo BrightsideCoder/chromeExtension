@@ -7,6 +7,9 @@ body {
 
 #input-el {
     border-color: #5f9341;
+    padding: 0 10px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 #input-btn {
