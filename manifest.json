@@ -1,9 +1,9 @@
 {
-    "manifest-version": "3",
+    "manifest_version": 3,
     "version": "1.0",
     "name": "Leads tracker",
     "action": {
         "default_popup": "index.html",
-        "default_icon": "https://i.pinimg.com/736x/f3/03/dc/f303dcde2ef5ad0bdaa63d5a097eed51.jpg"
+        "default_icon": "./dollar.jpeg"
     }
 }
