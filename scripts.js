@@ -3,10 +3,18 @@ const inputEl = document.querySelector("#input-el");
 const ulEl = document.querySelector("#ul-el");
 let myLeads = [];
 
+let leadsFromStorage = JSON.parse( localStorage.getItem("myLeads") );
+
+if (leadsFromStorage) {
+    myLeads = leadsFromStorage;
+    renderLeads();
+}
+
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value);
-    renderLeads();
     inputEl.value = "";
+    localStorage.setItem("myLeads", JSON.stringify(myLeads));
+    renderLeads();
 });
 
 function renderLeads() {

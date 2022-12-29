@@ -17,10 +17,19 @@ body {
 #input-btn {
     background-color: #5f9341;
     color: white;
+}
+
+button {
     padding: 15px;
     width: 150px;
     font-weight: bold;
     border: none;
+}
+
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
+    border: 1px solid #5f9341;
 }
 
 ul {
