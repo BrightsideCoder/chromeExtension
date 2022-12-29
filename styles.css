@@ -3,7 +3,7 @@ body {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #5f9341;
-    min-width: 400px;
+    min-width: 500px;
 }
 
 #input-el {
@@ -14,21 +14,24 @@ body {
     box-sizing: border-box;
 }
 
-#input-btn {
-    background-color: #5f9341;
-    color: white;
-}
-
 button {
+    color: white;
     padding: 15px;
     width: 150px;
     font-weight: bold;
     border: none;
 }
 
+#input-btn {
+    background-color: #5f9341;
+}
+
+#save-tab-btn {
+    background: lightblue;
+}
+
 #delete-btn {
-    background-color: white;
-    color: #5f9341;
+    background-color: lightcoral;
     border: 1px solid #5f9341;
 }
 
